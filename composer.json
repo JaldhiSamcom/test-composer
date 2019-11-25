@@ -1,12 +1,12 @@
 {
-    "name": "buonzz/composer-library-template",
+    "name": "jaldhi/test-library",
     "description": "Boilerplate package for creating other packages.",
     "keywords": ["template", "composer", "package"],
     "license": "DBAD",
     "authors": [
         {
-            "name": "Darwin Biler",
-            "email": "buonzz@gmail.com"
+            "name": "Jaldhi Samcom",
+            "email": "jaldhi@samcomtechnobrains.com"
         }
     ],
     "type": "project",
