@@ -23,7 +23,7 @@ class Todo
     }
 
     /**
-     * get todos list
+     * Todo get list of todos
      * @return false|string
      */
     public function getTodos()
@@ -56,8 +56,8 @@ class Todo
     }
 
     /**
-     * get particular todo detail
-     * @param $i Todo of todo
+     * Todo get particular todo detail
+     * @param $i
      * @return false|string
      */
     public function getTodo($i)
