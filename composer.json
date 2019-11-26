@@ -1,5 +1,5 @@
 {
-    "name": "test-composer",
+    "name": "jaldhi/test-composer",
     "description": "Boilerplate package for creating other packages.",
     "keywords": ["template", "composer", "package"],
     "license": "DBAD",
