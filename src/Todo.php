@@ -68,9 +68,9 @@ class Todo
 
             if ($this->curl->error) {
                 if ($this->curl->errorCode != 404)
-                    return json_encode(["status" => $this->curl->errorCode, "message" => $this->curl->errorMessage], JSON_PRETTY_PRINT);
+                    return json_encode(["status" => $this->curl->errorCode, "message" => $this->curl->errorMessage, "data" => []], JSON_PRETTY_PRINT);
                 else
-                    return json_encode(["status" => $this->curl->errorCode, "message" => "No record found"], JSON_PRETTY_PRINT);
+                    return json_encode(["status" => $this->curl->errorCode, "message" => "No record found", "data" => []], JSON_PRETTY_PRINT);
 
             } else {
                 return json_encode([
